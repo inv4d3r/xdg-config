@@ -1,0 +1,12 @@
+[submodule "awesome"]
+	path = awesome
+	url = https://github.com/inv4d3r/awesome-config
+	branch = master
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/inv4d3r/nvim-config
+	branch = master
+[submodule "qutebrowser"]
+	path = qutebrowser
+	url = https://github.com/inv4d3r/qute-config
+	branch = master
