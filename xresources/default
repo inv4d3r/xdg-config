@@ -1,19 +1,50 @@
+#define   bg            #282828
+#define   fg            #ebdbb2
+#define   red           #fb4934
+#define   red_dark      #cc241d
+#define   green         #b8bb26
+#define   green_dark    #98971a
+#define   yellow        #fabd2f
+#define   yellow_dark   #d79921
+#define   blue          #83a598
+#define   blue_dark     #458588
+#define   purple        #d3869b
+#define   purple_dark   #b16286
+#define   aqua          #8ec07c
+#define   aqua_dark     #689d6a
+#define   orange        #fe8019
+#define   orange_dark   #d65d0e
+#define   gray          #a89984
+#define   gray_dark     #928374
+#define   bg0_h         #1d2021
+#define   bg0_s         #32302f
+#define   bg0           #282828
+#define   bg1           #3c3836
+#define   bg2           #504945
+#define   bg3           #665c54
+#define   bg4           #7c6f64
+#define   fg0           #fbf1c7
+#define   fg1           #ebdbb2
+#define   fg2           #d5c4a1
+#define   fg3           #bdae93
+#define   fg4           #a89984
+
 ! URxvt gruvbox dark soft
-URxvt*background: [70]#32302f
-URxvt*foreground : #928374
-URxvt*color0: #282828
-URxvt*color8: #928374
-URxvt*color1: #cc241d
-URxvt*color9: #fb4934
-URxvt*color2: #98971a
-URxvt*color10: #b8bb26
-URxvt*color3: #d79921
-URxvt*color11: #fabd2f
-URxvt*color4: #458588
-URxvt*color12: #83a598
-URxvt*color5: #b16286
-URxvt*color13: #d3869b
-URxvt*color6: #689d6a
-URxvt*color14: #8ec07c
-URxvt*color7: #a89984
-URxvt*color15: #ebdbb2
+URxvt*background: [90]bg0_s
+URxvt*foreground: gray_dark
+URxvt*color0: bg0
+URxvt*color8: gray_dark
+URxvt*color1: red_dark
+URxvt*color9: red
+URxvt*color2: green_dark
+URxvt*color10: green
+URxvt*color3: yellow_dark
+URxvt*color11: yellow
+URxvt*color4: blue_dark
+URxvt*color12: blue
+URxvt*color5: purple_dark
+URxvt*color13: purple
+URxvt*color6: aqua_dark
+URxvt*color14: aqua
+URxvt*color7: gray
+URxvt*color15: fg1
