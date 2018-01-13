@@ -1,12 +1,16 @@
 # colors dracula
 black='colour16'
-white='colour255'
+white='colour15'
 nearblack='colour236' # darkgray
 gray='colour236'
 purple='colour141' # light purple
 aqua='colour141' # light purple
 blue='colour61' # dark purple
-yellow='colour215'
+orange='colour215'
+green='colour84'
+yellow='colour228'
+red='colour160'
+pink='colour212'
 
 # status line
 set -g status-justify left

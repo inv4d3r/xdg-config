@@ -37,7 +37,7 @@ set -g __color_repo_dirty            $bg $red_bright
 set -g __color_repo_staged           $bg $yellow_bright
 
 set -g __color_vi_mode_default       $bg $purple_bright --bold
-set -g __color_vi_mode_insert        $bg $pink --bold
+set -g __color_vi_mode_insert        $bg $green --bold
 set -g __color_vi_mode_visual        $bg $yellow --bold
 
 set -g __color_vagrant               $blue $gray_bright --bold
