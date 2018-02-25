@@ -10,3 +10,6 @@
 	path = qutebrowser
 	url = https://github.com/inv4d3r/qute-config
 	branch = master
+[submodule "tmux/tpm"]
+	path = tmux/tpm
+	url = https://github.com/tmux-plugins/tpm
