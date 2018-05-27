@@ -30,8 +30,8 @@
 #define   fg4           #a89984
 
 ! URxvt gruvbox dark soft
-URxvt*background: [90]bg0_s
-URxvt*foreground: gray_dark
+URxvt*background: [100]bg0_s
+URxvt*foreground: fg1
 URxvt*color0: bg0
 URxvt*color8: gray_dark
 URxvt*color1: red_dark
