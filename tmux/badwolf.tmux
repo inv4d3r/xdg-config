@@ -61,7 +61,6 @@ set -g pane-active-border-fg ${toffee}
 set -g status-position bottom
 set -g status-bg ${coal}
 set -g status-fg ${mediumgravel}
-set -g status-attr dim
 set -g status-left ""
 set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${tardis},bg=${coal},bold] #H #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
 set -g status-right-length 50

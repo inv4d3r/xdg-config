@@ -46,7 +46,6 @@ set -g pane-active-border-fg ${aqua}
 set -g status-position bottom
 set -g status-bg ${black}
 set -g status-fg ${gray}
-set -g status-attr dim
 set -g status-left ""
 set -g status-right "#[fg=${white},bg=${nearblack},bold] #S #[fg=${aqua},bg=${black},bold] #H #[fg=${white},bg=${nearblack},bold] %d/%m #[fg=${white},bg=${black},bold] %H:%M:%S "
 set -g status-right-length 50
