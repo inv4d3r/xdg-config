@@ -1,0 +1,10 @@
+[options]
+font = Hack 9
+browser = qutebrowser
+
+[hints]
+foreground = #ffffff
+background = #ffffff
+border = #ffffff
+border_width = 1.0
+
