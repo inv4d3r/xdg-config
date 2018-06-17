@@ -7,13 +7,9 @@ set -g theme_nerd_fonts no
 
 # loading THEME colors
 if test -z "$THEME"
-    source $HOME/.config/fish/gruvbox.fish
+    source $HOME/.config/fish/default.fish
 else
-    if [ "$THEME" = 'default' ]
-        source $HOME/.config/fish/gruvbox.fish
-    else
-        source $HOME/.config/fish/$THEME.fish
-    end
+    source $HOME/.config/fish/$THEME.fish
 end
 
 # Start X at login
