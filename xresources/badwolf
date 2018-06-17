@@ -26,7 +26,7 @@
 
 ! URxvt badwolf
 URxvt*background:  [90]blackgravel
-URxvt*foreground:  plain
+URxvt*foreground:  gravel
 URxvt*color0:      blackestgravel
 URxvt*color8:      coal
 URxvt*color1:      taffy
