@@ -11,7 +11,7 @@ yellow='colour214'
 # status line
 set -g status-justify left
 set -g status-bg default
-set -g status-fg ${aqua}
+set -g status-fg ${purple}
 set -g status-interval 2
 
 # messaging
@@ -40,14 +40,14 @@ setw -g mode-bg ${nearblack}
 set -g pane-border-bg ${black}
 set -g pane-border-fg ${black}
 set -g pane-active-border-bg ${black}
-set -g pane-active-border-fg ${aqua}
+set -g pane-active-border-fg ${purple}
 
 # global status
 set -g status-position bottom
 set -g status-bg ${black}
 set -g status-fg ${gray}
 set -g status-left ""
-set -g status-right "#[fg=${white},bg=${nearblack},bold] #S #[fg=${aqua},bg=${black},bold] #H #[fg=${white},bg=${nearblack},bold] %d/%m #[fg=${white},bg=${black},bold] %H:%M:%S "
+set -g status-right "#[fg=${white},bg=${nearblack},bold] #S #[fg=${purple},bg=${black},bold] #H #[fg=${white},bg=${nearblack},bold] %d/%m #[fg=${white},bg=${black},bold] %H:%M:%S "
 set -g status-right-length 50
 set -g status-left-length 20
 
@@ -63,14 +63,14 @@ setw -g window-status-current-format " #I#[fg=${white}]:#W#F "
 #setw -g window-status-format " #I#[fg=${white}]:#W#F "
 
 setw -g window-status-bell-attr bold
-setw -g window-status-bell-fg ${aqua}
+setw -g window-status-bell-fg ${purple}
 setw -g window-status-bell-bg ${nearblack}
 
 # message text
 set -g message-attr bold
-set -g message-fg ${aqua}
+set -g message-fg ${purple}
 set -g message-bg ${nearblack}
 
 # page number display (prefix-q)
-set-option -g display-panes-active-colour ${aqua}
+set-option -g display-panes-active-colour ${purple}
 set-option -g display-panes-colour ${gray}

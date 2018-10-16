@@ -11,7 +11,7 @@ darkgravel='colour235'
 blackgravel='colour233'
 blackestgravel='colour232'
 
-taffyg='colour196'
+taffy='colour196'
 dalespale='colour221'
 dirtyblond='colour222'
 saltwatertaffy='colour121'
@@ -55,19 +55,19 @@ setw -g mode-bg ${blackgravel}
 set -g pane-border-bg ${coal}
 set -g pane-border-fg ${coal}
 set -g pane-active-border-bg ${coal}
-set -g pane-active-border-fg ${toffee}
+set -g pane-active-border-fg ${snow}
 
 # global status
 set -g status-position bottom
 set -g status-bg ${coal}
 set -g status-fg ${mediumgravel}
 set -g status-left ""
-set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${tardis},bg=${coal},bold] #H #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
+set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${taffy},bg=${coal},bold] #H #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
 set -g status-right-length 50
 set -g status-left-length 20
 
 # window status
-setw -g window-status-current-fg ${dress}
+setw -g window-status-current-fg ${taffy}
 setw -g window-status-current-bg ${blackgravel}
 setw -g window-status-current-attr bold
 setw -g window-status-current-format " #I#[fg=${snow}]:#W#F "
