@@ -1,6 +1,7 @@
 [options]
 font = Hack 9
-browser = qutebrowser
+browser = firefox
+fullscreen = false
 
 [hints]
 foreground = #ffffff
