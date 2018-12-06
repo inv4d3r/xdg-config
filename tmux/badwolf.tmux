@@ -62,7 +62,7 @@ set -g status-position bottom
 set -g status-bg ${coal}
 set -g status-fg ${mediumgravel}
 set -g status-left ""
-set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${taffy},bg=${coal},bold] #H #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
+set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${taffy},bg=${coal},bold] #h #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
 set -g status-right-length 50
 set -g status-left-length 20
 
