@@ -1,12 +1,14 @@
 # colors gruvbox
-black='colour235'
-white='colour223'
-nearblack='colour237'
+black='colour234'
+white='colour250'
+nearblack='colour236'
 gray='colour246'
-purple='colour175'
+pink='colour175'
+purple='colour97'
 aqua='colour108'
-blue='colour109'
-yellow='colour214'
+blue='colour68'
+green='colour71'
+yellow='colour143'
 
 # status line
 set -g status-justify left
@@ -47,12 +49,12 @@ set -g status-position bottom
 set -g status-bg ${black}
 set -g status-fg ${gray}
 set -g status-left ""
-set -g status-right "#[fg=${white},bg=${nearblack},bold] #S #[fg=${gray},bg=${black},bold] #h #[fg=${white},bg=${nearblack},bold] %d/%m #[fg=${white},bg=${black},bold] %H:%M:%S "
+set -g status-right "#[fg=${white},bg=${nearblack},bold] #S #[fg=${purple},bg=${black},bold] #h #[fg=${white},bg=${nearblack},bold] %d/%m #[fg=${green},bg=${black},bold] %H:%M:%S "
 set -g status-right-length 50
 set -g status-left-length 20
 
 # window status
-setw -g window-status-current-fg ${white}
+setw -g window-status-current-fg ${blue}
 setw -g window-status-current-bg ${nearblack}
 setw -g window-status-current-attr bold
 setw -g window-status-current-format " #I#[fg=${white}]:#W#F "
