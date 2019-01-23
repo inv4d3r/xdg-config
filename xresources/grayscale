@@ -1,0 +1,44 @@
+#define   background #1d1f21 
+#define   background_reduced #232c31 
+#define   foreground #c5c8c6    
+#define   selection  #373b41 
+#define   line       #282a2e
+#define   comment    #707880
+#define   red        #cc6666
+#define   orange     #de935f
+#define   yellow     #f0c674
+#define   green      #b5bd68
+#define   aqua       #8abeb7
+#define   blue       #81a2be
+#define   purple     #b294bb
+#define   window     #303030
+#define   darkcolumn #1c1c1c
+#define   addbg      #5F875F
+#define   addfg      #d7ffaf
+#define   changebg   #5F5F87
+#define   changefg   #d7d7ff
+#define   delbg      #cc6666
+#define   darkblue   #00005f
+#define   darkcyan   #005f5f
+#define   darkred    #5f0000
+#define   darkpurple #5f005f
+
+! URxvt hybrid
+URxvt*background:  [90]background
+URxvt*foreground:  foreground
+URxvt*color0:      background_reduced
+URxvt*color8:      background_reduced
+URxvt*color1:      red
+URxvt*color9:      red
+URxvt*color2:      green
+URxvt*color10:     green
+URxvt*color3:      yellow
+URxvt*color11:     orange
+URxvt*color4:      blue
+URxvt*color12:     blue
+URxvt*color5:      purple
+URxvt*color13:     purple
+URxvt*color6:      aqua
+URxvt*color14:     aqua
+URxvt*color7:      line
+URxvt*color15:     line
