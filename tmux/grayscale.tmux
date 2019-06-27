@@ -1,3 +1,4 @@
+# colors grayscale
 selection='colour59'
 background='colour16'
 foreground='colour188'
@@ -19,10 +20,8 @@ set -g status-fg ${gray}
 set -g status-interval 2
 
 # messaging
-set -g message-fg ${background}
-set -g message-bg ${yellow}
-set -g message-command-fg ${comment}
-set -g message-command-bg ${background}
+set -g message-style fg=${gray},bg=${background},bold
+set -g message-command-style fg=${comment},bg=${background}
 
 # info on left
 set -g status-left ""
@@ -36,15 +35,11 @@ set-option -g bell-action none
 
 # clock
 setw -g clock-mode-colour ${purple}
-setw -g mode-attr bold
-setw -g mode-fg ${foreground}
-setw -g mode-bg ${background}
+setw -g mode-style fg=${foreground},bg=${background},bold
 
 # pane border
-set -g pane-border-bg ${background}
-set -g pane-border-fg ${background}
-set -g pane-active-border-bg ${background}
-set -g pane-active-border-fg ${foreground}
+set -g pane-border-style fg=${background},bg=${background}
+set -g pane-active-border-style fg=${foreground},bg=${background}
 
 # global status
 set -g status-position bottom
@@ -56,24 +51,10 @@ set -g status-right-length 50
 set -g status-left-length 20
 
 # window status
-setw -g window-status-current-fg ${gray}
-setw -g window-status-current-bg ${background}
-setw -g window-status-current-attr bold
+setw -g window-status-current-style fg=${gray},bg=${background},bold
 setw -g window-status-current-format " #I#[fg=${foreground}]:#W#F "
 
-#setw -g window-status-fg ${foreground}
-#setw -g window-status-bg ${background}
-#setw -g window-status-attr bold
-#setw -g window-status-format " #I#[fg=${foreground}]:#W#F "
-
-setw -g window-status-bell-attr bold
-setw -g window-status-bell-fg ${gray}
-setw -g window-status-bell-bg ${background}
-
-# message text
-set -g message-attr bold
-set -g message-fg ${gray}
-set -g message-bg ${background}
+setw -g window-status-bell-style fg=${gray},bg=${background},bold
 
 # page number display (prefix-q)
 set-option -g display-panes-active-colour ${gray}

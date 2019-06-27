@@ -30,10 +30,8 @@ set -g status-fg ${saltwatertaffy}
 set -g status-interval 2
 
 # messaging
-set -g message-fg ${coal}
-set -g message-bg ${dalespale}
-set -g message-command-fg ${tardis}
-set -g message-command-bg ${coal}
+set -g message-style fg=${saltwatertaffy},bg=${blackgravel},bold
+set -g message-command-style fg=${tardis},bg=${coal}
 
 # info on left
 set -g status-left ""
@@ -47,44 +45,26 @@ set-option -g bell-action none
 
 # clock
 setw -g clock-mode-colour ${dress}
-setw -g mode-attr bold
-setw -g mode-fg ${snow}
-setw -g mode-bg ${blackgravel}
+setw -g mode-style fg=${snow},bg=${blackgravel},bold
 
 # pane border
-set -g pane-border-bg ${coal}
-set -g pane-border-fg ${coal}
-set -g pane-active-border-bg ${coal}
-set -g pane-active-border-fg ${snow}
+set -g pane-border-style fg=${coal},bg=${coal}
+set -g pane-active-border-style fg=${snow},bg=${coal}
 
 # global status
 set -g status-position bottom
-set -g status-bg ${coal}
 set -g status-fg ${mediumgravel}
+set -g status-bg ${coal}
 set -g status-left ""
 set -g status-right "#[fg=${snow},bg=${blackgravel},bold] #S #[fg=${taffy},bg=${coal},bold] #h #[fg=${snow},bg=${blackgravel},bold] %d/%m #[fg=${snow},bg=${coal},bold] %H:%M:%S "
 set -g status-right-length 50
 set -g status-left-length 20
 
 # window status
-setw -g window-status-current-fg ${taffy}
-setw -g window-status-current-bg ${blackgravel}
-setw -g window-status-current-attr bold
+setw -g window-status-current-style fg=${taffy},bg=${blackgravel},bold
 setw -g window-status-current-format " #I#[fg=${snow}]:#W#F "
 
-#setw -g window-status-fg ${snow}
-#setw -g window-status-bg ${blackgravel}
-#setw -g window-status-attr bold
-#setw -g window-status-format " #I#[fg=${snow}]:#W#F "
-
-setw -g window-status-bell-attr bold
-setw -g window-status-bell-fg ${saltwatertaffy}
-setw -g window-status-bell-bg ${blackgravel}
-
-# message text
-set -g message-attr bold
-set -g message-fg ${saltwatertaffy}
-set -g message-bg ${blackgravel}
+setw -g window-status-bell-style fg=${saltwatertaffy},bg=${blackgravel},bold
 
 # page number display (prefix-q)
 set-option -g display-panes-active-colour ${saltwatertaffy}
