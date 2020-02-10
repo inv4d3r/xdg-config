@@ -1,6 +1,6 @@
 [options]
-font = Hack 9
-browser = firefox
+font = $FONT_FAMILY 9
+browser = $BROWSER
 fullscreen = false
 
 [hints]
