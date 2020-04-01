@@ -1,5 +1,5 @@
 [options]
-font = $FONT_FAMILY 9
+font = $FONT_FAMILY 11
 browser = $BROWSER
 fullscreen = false
 
