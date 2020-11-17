@@ -18,3 +18,9 @@
 	path = kitty/kitty-themes
 	url = https://github.com/inv4d3r/kitty-themes
 	branch = master
+[submodule "polybar"]
+	path = polybar
+	url = https://github.com/inv4d3r/polybar-config.git
+[submodule "i3"]
+	path = i3
+	url = https://github.com/inv4d3r/i3-config.git
